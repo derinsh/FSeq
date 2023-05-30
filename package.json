@@ -1,0 +1,25 @@
+{
+  "name": "fseq",
+  "version": "0.0.0",
+  "description": "Functional sequential operators for JavaScript",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "console.log(\"nop\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derinsh/FSeq.git"
+  },
+  "author": "derinsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derinsh/FSeq/issues"
+  },
+  "homepage": "https://github.com/derinsh/FSeq#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
